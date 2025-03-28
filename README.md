@@ -1,6 +1,6 @@
-# Ecto Framework 🚀
+# Ecto Library 🚀
 
-Ecto is a lightweight JavaScript framework that provides dynamic variable binding and condition-based rendering without requiring users to write JavaScript! 🎯
+Ecto is a lightweight JavaScript library that provides dynamic variable binding and condition-based rendering without requiring users to write JavaScript! 🎯
 
 ## 📌 Features
 - **Dynamic Variables**: Use `<x-var>` to declare global variables.
@@ -40,7 +40,7 @@ You can include Ecto in your project using jsDelivr CDN:
 ```
 
 ## 💡 Contributing
-Want to improve **Ecto Framework**? Feel free to fork, submit issues, or contribute! 🎉
+Want to improve **Ecto Library**? Feel free to fork, submit issues, or contribute! 🎉
 
 ## 📜 License
 This project is open-source and available under the MIT License.

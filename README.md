@@ -1,43 +1,51 @@
-# Ecto JS Library
+# Ecto Framework 🚀
 
-This is a custom JavaScript library designed for dynamic variable handling and conditional rendering in HTML using `<x-var>` and `<x-loop>` components.
+Ecto is a lightweight JavaScript framework that provides dynamic variable binding and condition-based rendering without requiring users to write JavaScript! 🎯
 
-## 🚀 Features
-- **Dynamic Variables:** Define and use global variables with `<x-var>`.
-- **Conditional Rendering:** Use `if="{{variable}} == 'value'"` to control element visibility.
-- **Looping Elements:** Iterate over lists using `<x-loop>`.
-- **CDN Ready:** Hosted on jsDelivr for easy usage.
+## 📌 Features
+- **Dynamic Variables**: Use `<x-var>` to declare global variables.
+- **Looping**: Use `<x-loop>` to iterate over arrays.
+- **Conditional Rendering**: Use `if="{{variable}} == 'value'"` to show/hide elements.
+- **Component System**: Load external HTML components easily.
 
-## 📦 Installation
-You can include this library in your project using jsDelivr CDN:
+## 📥 Installation
+You can include Ecto in your project using jsDelivr CDN:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@latest/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/HaSh3003/Ecto_Freamwork/ecto.min.js"></script>
 ```
 
-## 📖 Usage
-### 1️⃣ Define Variables
+## 🚀 Usage
+### 1️⃣ Define a Variable
 ```html
-<x-var name="userName" value="Hesham"></x-var>
-<x-var name="userRole" value="admin"></x-var>
+<x-var name="userName" value="John Doe"></x-var>
 ```
-### 2️⃣ Conditional Rendering
+
+### 2️⃣ Use Loops
 ```html
-<div if="{{userRole}} == 'admin'">Welcome, Admin!</div>
-```
-### 3️⃣ Looping Through Data
-```html
-<x-var name="users" value='[{"name": "Ahmed"}, {"name": "Sarah"}]'></x-var>
+<x-var name="users" value='[{"name": "Alice"}, {"name": "Bob"}]'></x-var>
 <x-loop name="users">
   <p>{{item.name}}</p>
 </x-loop>
 ```
 
-## 🛠 Development
-To contribute or modify the library, clone this repository:
-```sh
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+### 3️⃣ Conditional Rendering
+```html
+<x-var name="role" value="admin"></x-var>
+<div if="{{role}} == 'admin'">Welcome, Admin! 👑</div>
 ```
 
+### 4️⃣ Using Components
+```html
+<x-component src="header.html"></x-component>
+```
+
+## 💡 Contributing
+Want to improve **Ecto Framework**? Feel free to fork, submit issues, or contribute! 🎉
+
 ## 📜 License
-This project is licensed under the MIT License.
+This project is open-source and available under the MIT License.
+
+---
+
+⭐ **Star the repo if you like it!** ⭐
 

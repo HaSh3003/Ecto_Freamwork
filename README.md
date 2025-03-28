@@ -11,7 +11,7 @@ Ecto is a lightweight JavaScript library that provides dynamic variable binding 
 ## 📥 Installation
 You can include Ecto in your project using jsDelivr CDN:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/HaSh3003/Ecto_Freamwork/ecto.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/HaSh3003/Ecto_Library/ecto.min.js"></script>
 ```
 
 ## 🚀 Usage

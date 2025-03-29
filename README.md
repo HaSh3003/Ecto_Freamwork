@@ -22,9 +22,10 @@ You can include Ecto in your project using jsDelivr CDN:
 
 ### 2️⃣ Use Loops
 ```html
-<x-var name="users" value='[{"name": "Alice"}, {"name": "Bob"}]'></x-var>
-<x-loop name="users">
-  <p>{{item.name}}</p>
+<x-loop repeat="10">
+  <!-- ========== Start flex ========== -->
+  <x-click action="alert('hmed')">btn</x-click>
+  <!-- ========== End flex ========== -->
 </x-loop>
 ```
 
